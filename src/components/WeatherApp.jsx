@@ -91,49 +91,49 @@ export default function WeatherApp() {
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/imag1.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/imag1.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/Image2.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/Image2.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/Image3.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/Image3.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/Image4.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/Image4.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/Image5.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/Image5.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/Image6.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/Image6.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/WeatherApp/Image7.jpg"
+              src={`${process.env.PUBLIC_URL}/images/WeatherApp/Image7.jpg`}
               alt="project_image"
             />
           </div>

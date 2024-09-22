@@ -79,35 +79,35 @@ export default function HappyShopping() {
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/HappyShopping/Image1.png"
+              src={`${process.env.PUBLIC_URL}/images/HappyShopping/Image1.png`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/HappyShopping/Image2.png"
+              src={`${process.env.PUBLIC_URL}/images/HappyShopping/Image2.png`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item resize__width">
             <img
               className="project__image"
-              src="/images/HappyShopping/Image3.png"
+              src={`${process.env.PUBLIC_URL}/images/HappyShopping/Image3.png`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/HappyShopping/Image4.png"
+              src={`${process.env.PUBLIC_URL}/images/HappyShopping/Image4.png`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src="/images/HappyShopping/Image5.png"
+              src={`${process.env.PUBLIC_URL}/images/HappyShopping/Image5.png`}
               alt="project_image"
             />
           </div>

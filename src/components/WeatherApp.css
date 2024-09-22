@@ -89,3 +89,17 @@
     font-weight: bold;
 }
 
+
+@media(max-width:903px){
+    .projects__images{
+        margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    }
+    .project_image__item{
+        height: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
