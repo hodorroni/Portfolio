@@ -13,7 +13,7 @@ export default function HomePage() {
 
   return (
     <>
-      <div className={`website_content`}>
+      <div className={`website_content`} id="home">
         <HeaderHomePage />
         <main className="main__content">
           <TopContent />

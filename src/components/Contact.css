@@ -1,30 +1,27 @@
-.form_popup{
+.form_popup {
     position: fixed;
     background: rgba(76, 57, 77, 0.356);
     z-index: 999;
-    width: 400px;
+    width: 90%; /* Fixed width */
+    max-width:400px ;
     height: 150px;
-    transform: translateX(-50%);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     display: flex; /* Use flexbox */
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
     text-align: center;
-    top: 20px;
-    right: -100px;
+    top: 20px; /* Position from the top */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -100%); /* Center it and start above */
     border-radius: 10px;
-    animation: slideDown 1s ease-out forwards;
+    animation: slideDown 1s ease-out forwards; /* Add animation */
 }
 
 @keyframes slideDown {
     0% {
-        top: -200px; /* Start outside the top of the screen */
+        top: -150px; /* Start outside the top of the screen */
     }
     100% {
-        top: 20px; /* Final position at 50px from the top */
+        top: 200px; /* Final position at 20px from the top */
     }
-}
-
-.form_popup h2 {
-    vertical-align: middle;
 }

@@ -29,7 +29,7 @@ export default function HeaderHomePage() {
   }, [isNavVisible]);
   return (
     <>
-      <header className="main_header" id="home">
+      <header className="main_header">
         <p>R.Borsukovsky</p>
         <div className="right_logo_container">
           <ul>
