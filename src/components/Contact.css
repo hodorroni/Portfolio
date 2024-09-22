@@ -1,0 +1,30 @@
+.form_popup{
+    position: fixed;
+    background: rgba(76, 57, 77, 0.356);
+    z-index: 999;
+    width: 400px;
+    height: 150px;
+    transform: translateX(-50%);
+    color:rgb(0, 0, 0);
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    text-align: center;
+    top: 20px;
+    right: -100px;
+    border-radius: 10px;
+    animation: slideDown 1s ease-out forwards;
+}
+
+@keyframes slideDown {
+    0% {
+        top: -200px; /* Start outside the top of the screen */
+    }
+    100% {
+        top: 20px; /* Final position at 50px from the top */
+    }
+}
+
+.form_popup h2 {
+    vertical-align: middle;
+}

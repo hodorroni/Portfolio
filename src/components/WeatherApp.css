@@ -1,0 +1,91 @@
+.weather_app__header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #252525;
+    color: aliceblue;
+    align-items: center; /* Vertically centers the items */
+}
+
+.weather_app__header button {
+    color:white;
+    border:2px solid #4c137a;
+    background: #4c137a;
+    outline: none;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 120px;
+    vertical-align: middle;
+    height: 40px;
+    transition: color 0.5s ease, background 0.5s ease, scale 0.5s ease;
+}
+
+.weather_app__header button:hover{
+    color: #4c137a;            /* Change the text color */
+    background: white;         /* Change the background color */
+    transform: scale(1.2);     /* Slightly increase the size on hover */
+}
+
+.projects__images{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_image__item{
+    border-radius: 25px;
+    overflow: hidden;
+    height: 650px;    
+    transition: scale 0.5s ease;
+}
+.project_image__item:hover{
+    transform: scale(1.1);
+}
+
+.project_image__item:last-child{
+    margin-bottom: 40px;
+}
+
+.project__image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.projects__header_description{
+    margin-left: 50px;
+    padding: 5px;
+    width: 60%;
+}
+
+.projects__header_description h1 {
+    color:#99466f;
+}
+
+.projects__header_description p {
+    color: azure;
+    line-height: 2rem;
+}
+
+.projects__keyfeatures li{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.projects__keyfeatures li::marker {
+    color: #b4b2b6; 
+}
+
+.bold_text_technologies{
+    font-weight: bold;
+}
+
