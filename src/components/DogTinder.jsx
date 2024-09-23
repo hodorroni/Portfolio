@@ -88,28 +88,28 @@ export default function DogTinder() {
           <div className="project_image__item">
             <img
               className="project__image"
-              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image1.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image2.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image1.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image3.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image1.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image4.jpg`}
               alt="project_image"
             />
           </div>
           <div className="project_image__item">
             <img
               className="project__image"
-              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image1.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/DogTinder/Image5.jpg`}
               alt="project_image"
             />
           </div>
